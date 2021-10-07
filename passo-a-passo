@@ -1,0 +1,17 @@
+- criar envirionment (primeiro argumento depois do -n é o nome da envirionment: você escolhe)
+conda create -n ml_simples python=3.8
+
+- ativar envirionment
+
+conda activate ml_simples
+
+- desativar envirioment
+
+conda deactivate
+
+- requirements
+jupyter==1.0.0
+pandas==1.3.3
+seaborn==0.11.2
+matplotlib==3.4.3
+scikit-learn==1.0
